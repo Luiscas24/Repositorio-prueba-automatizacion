@@ -1,0 +1,4 @@
+automationtesting/myaccount/TestAutenticacion.java
+ automationtesting.myaccount.TestAutenticacion
+automationtesting/myaccount/TestRegistro.java
+ automationtesting.myaccount.TestRegistro
