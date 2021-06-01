@@ -1,5 +1,9 @@
 package automationtesting.myaccount;
 
+import static automationtesting.utils.Utilidades.*;
+import static automationtesting.utils.Utilidades.typeInField;
+
+import automationtesting.utils.Utilidades;
 import org.junit.After;
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
@@ -43,14 +47,9 @@ public class TestRegistro {
         emailField.sendKeys(email);
 
         passwordField.click();
-        TypeInField(passwordField, this.getPassword());
+        typeInField(passwordField, this.getPassword());
 
-        try{
-            Thread.sleep(3000);
-        }
-        catch (InterruptedException e){
-            e.printStackTrace();
-        }
+        waitOwn(3000);
 
         registerButton.click();
 
@@ -75,23 +74,12 @@ public class TestRegistro {
         emailField.sendKeys(email);
 
         passwordField.click();
-        TypeInField(passwordField, this.getPassword());
+        typeInField(passwordField, this.getPassword());
     }
 
     private void start() {
         driver.manage().window().maximize();
         driver.get("http://practice.automationtesting.in/my-account/");
-    }
-
-    public void TypeInField(WebElement field, String value){
-        String val = value;
-        field.click();
-        field.clear();
-        for (int i = 0; i < val.length(); i++){
-            char c = val.charAt(i);
-            String s = new StringBuilder().append(c).toString();
-            field.sendKeys(s);
-        }
     }
 
     @After
