@@ -1,4 +1,10 @@
-automationtesting/myaccount/TestAutenticacion.java
- automationtesting.myaccount.TestAutenticacion
+automationtesting/alerts/TestAlerts.java
+ automationtesting.alerts.TestAlerts
 automationtesting/myaccount/TestRegistro.java
  automationtesting.myaccount.TestRegistro
+automationtesting/utils/Utilidades.java
+ automationtesting.utils.Utilidades
+automationtesting/myaccount/TestAutenticacion.java
+ automationtesting.myaccount.TestAutenticacion
+automationtesting/ventanas/TestVentanas.java
+ automationtesting.ventanas.TestVentanas

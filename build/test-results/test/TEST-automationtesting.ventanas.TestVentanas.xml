@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automationtesting.ventanas.TestVentanas" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-01T02:39:04" hostname="DESKTOP-ASTOA84" time="16.32">
+  <properties/>
+  <testcase name="prueba3Ventana" classname="automationtesting.ventanas.TestVentanas" time="16.32"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41039
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1622515146.480][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+may. 31, 2021 9:39:06 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
